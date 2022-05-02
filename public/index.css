@@ -1,0 +1,29 @@
+html,
+body,
+#App {
+  display: flex;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(180,183,193,0.5718662464985995) 1%, rgba(0,212,255,1) 100%);    
+}
+
+#text{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  min-height: 441px;
+  grid-template-columns: calc(33.3333% - 15px) calc(33.3333% - 15px) calc(33.3333% - 15px);
+  height: auto;
+  grid-gap: 22px;
+}
+
+.imgmediana{
+  width: 300px;
+  height: 300px;
+}
+
+.titulos{
+  text-decoration-color: aqua;
+}
